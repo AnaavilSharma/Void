@@ -21,7 +21,11 @@ INSTALLED_APPS = [
     "corsheaders",
 
     # Local apps
-    "apps.users",
+    'rest_framework',
+    'corsheaders',
+    'apps.trips',
+    'apps.events',
+    'apps.safety',
 ]
 
 MIDDLEWARE = [
