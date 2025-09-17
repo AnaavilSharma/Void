@@ -1,0 +1,35 @@
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/tracebit_backend/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/trips/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/trips/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/users/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /api/trips/
+"GET /api/trips/ HTTP/1.1" 403 58
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/trips/serializers.py changed, reloading.
+/Users/anaavilsharma/Desktop/Void/tracebit_backend/trips/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+Not Found: /api/
+"GET /api/ HTTP/1.1" 404 2829
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
