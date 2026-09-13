@@ -1,95 +1,63 @@
-# Trace-Bit Mobile App
+# Trace-Bit
 
-A comprehensive travel tracking and city planning application that automatically captures trip data, predicts traffic, and optimizes routes for eco-friendly travel.
+Trace-Bit is a travel and urban-mobility planning project built around trip tracking, route intelligence, traffic prediction, and analytics.
 
-## 🚀 Features
+The project explores how mobile sensing and machine learning can turn individual travel data into useful routing insights while also providing aggregate information for urban planning.
 
-### Version 1.0
-- **Automatic Trip Tracking**: Background GPS and IoT sensor data collection
-- **Real-time Traffic Prediction**: ML-powered congestion alerts and predictions
-- **Route Optimization**: Smart public transport routing with passenger flow analytics
-- **City Planner Dashboard**: Data visualization and analytics for urban planning
-- **Battery Optimized**: Low-power background tracking
-- **Gamification**: User engagement through eco-friendly travel rewards
-- **Privacy First**: End-to-end encryption and data protection
+## Planned Architecture
 
-## 🏗️ Architecture
-
+```text
+Mobile App
+   ↓
+Django REST API
+   ↓
+PostgreSQL / Firebase
+   ↓
+ML + analytics layer
+   ↓
+Personal insights / city dashboard
 ```
+
+## Core Ideas
+
+- Background trip tracking
+- Traffic and congestion prediction
+- Route optimization
+- Public-transport and passenger-flow analytics
+- Urban-planning dashboards
+- Battery-conscious mobile data collection
+- Privacy-aware handling of location data
+- Gamification for sustainable travel
+
+## Tech Stack
+
+- **Mobile:** React Native + Expo
+- **Backend:** Django + Django REST Framework
+- **Data:** PostgreSQL / Firebase
+- **ML:** Python, scikit-learn, TensorFlow
+- **Maps:** Google Maps API
+- **Analytics:** D3.js
+
+## Project Structure
+
+```text
 Trace-Bit/
-├── mobile/                 # React Native mobile app
-├── backend/               # Django REST API
-├── web-dashboard/         # City planner web dashboard
-├── ml-models/            # Machine learning models
-├── shared/               # Shared utilities and types
-└── docs/                 # Documentation
+├── mobile/          # React Native application
+├── backend/         # Django REST API
+├── web-dashboard/   # Planning and analytics dashboard
+├── ml-models/       # Machine-learning components
+├── shared/          # Shared utilities and types
+└── docs/            # Project documentation
 ```
 
-## 🛠️ Tech Stack
+## Project Status
 
-- **Mobile**: React Native with Expo
-- **Backend**: Django + Django REST Framework
-- **Database**: PostgreSQL + Firebase (real-time)
-- **ML/AI**: Python (scikit-learn, TensorFlow)
-- **Cloud**: Firebase (Auth, Storage, Real-time DB)
-- **Maps**: Google Maps API
-- **Analytics**: Custom dashboard with D3.js
+**Development prototype.** The repository contains the project architecture and implementation work for the Trace-Bit concept. Several planned capabilities remain subject to further implementation and integration.
 
-## 🚀 Quick Start
+## Direction
 
-### Prerequisites
-- Node.js 18+
-- Python 3.9+
-- React Native CLI
-- Firebase CLI
-- PostgreSQL
+The long-term goal is to combine real-time mobility data, predictive models, and route intelligence into a single platform that is useful both to individual travellers and to city planners.
 
-### Mobile App Setup
-```bash
-cd mobile
-npm install
-npx expo start
-```
+## License
 
-### Backend Setup
-```bash
-cd backend
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-```
-
-### Web Dashboard Setup
-```bash
-cd web-dashboard
-npm install
-npm start
-```
-
-## 📱 Mobile App Features
-
-### Core Screens
-- **Home**: Trip overview and quick actions
-- **Tracking**: Real-time trip tracking with map
-- **Routes**: Route optimization and suggestions
-- **Profile**: User settings and achievements
-- **Analytics**: Personal travel insights
-
-### Background Services
-- GPS tracking with battery optimization
-- IoT sensor data collection
-- Real-time traffic updates
-- Push notifications for alerts
-
-## 🎯 Next Steps
-
-1. Set up Firebase project and configure authentication
-2. Implement GPS tracking with background services
-3. Build ML models for traffic prediction
-4. Create city planner dashboard
-5. Add gamification features
-6. Implement data privacy and security
-
-## 📄 License
-
-MIT License - see LICENSE file for details
+MIT License - see `LICENSE` for details.
